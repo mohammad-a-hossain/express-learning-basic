@@ -5,7 +5,7 @@
 ### creating a basic server 
 ``` first npm init **
 ** then npm i express **
-** npm install --save-dev nodemon ** ```
+** npm install --save-dev nodemon ** 
 ---
 ## part2 express functions
 ### function uses
@@ -19,3 +19,5 @@
   ..*if a folder or file to use as a static then go for bellow system ->
   ..*make a folder in public and make a test folder in public and a home.html can call form url localhost/4000/test/
 6. **express.router()** will another part
+***
+## part 3 working with application
