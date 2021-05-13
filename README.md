@@ -21,9 +21,12 @@
 6. **express.router()** will another part
 ***
 ## part 3 working with application/methods
-**app.locals()** make another folder name local for a rout export local to index
-**app.mountpath()** can create multiple app object like as for admin panel a separate app object
-**event application** admin.on() to get the parent mount path
+ 1. **app.locals()** 
+make another folder name local for a rout export local to index
+ 2. **app.mountpath()** 
+can create multiple app object like as for admin panel a separate app object
+ 3. **event application**
+ admin.on() to get the parent mount path
 ---
 ## methods
 **app.all()**
