@@ -2,10 +2,10 @@
 # works description
 ## part 1 _installation process_
 ---
-### creating a basic server
-** first npm init **
+### creating a basic server 
+``` first npm init **
 ** then npm i express **
-** npm install --save-dev nodemon **
+** npm install --save-dev nodemon ** ```
 ---
 ## part2 express functions
 ### function uses
