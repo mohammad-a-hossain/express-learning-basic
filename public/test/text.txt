@@ -1,0 +1,2 @@
+this is a text file making test for for static method
+using url in /test/text
