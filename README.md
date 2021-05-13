@@ -29,20 +29,20 @@ can create multiple app object like as for admin panel a separate app object
  admin.on() to get the parent mount path
 ---
 ## methods
-**app.all()**
-**app.delete()**
-**app.disable()** --use app setting if any request is case-sensitive off
-**app.enable()** --use app setting if any request is case-sensitive on
-**app.get()** --a for route
-**app.set()** --can set a parameter app.set('title', 'my site' )
-**app.listen()**
-**app.param()** --it set an id parameter and response a object with id set
-**app.path()**
-**app.put()**
-**app.patch()**
-**app.post()**
-**app.rout()**
-**app.engin()**
+1. **app.all()**
+2. **app.delete()**
+3. **app.disable()** --use app setting if any request is case-sensitive off
+4. **app.enable()** --use app setting if any request is case-sensitive on
+5. **app.get()** --a for route
+6. **app.set()** --can set a parameter app.set('title', 'my site' )
+7. **app.listen()**
+8. **app.param()** --it set an id parameter and response a object with id set
+9. **app.path()**
+10. **app.put()**
+11. **app.patch()**
+12. **app.post()**
+13. **app.rout()**
+14 **app.engin()**
 --for engin method need a ejs templete ingin install > npm i ejs
 --make a views folder and a index.ejs now set ejs in index and call from see ? "http://localhost:4000/see" route
 
