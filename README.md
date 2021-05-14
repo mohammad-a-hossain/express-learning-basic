@@ -42,9 +42,28 @@ can create multiple app object like as for admin panel a separate app object
 11. **app.patch()**
 12. **app.post()**
 13. **app.rout()**
-14 **app.engin()**
+14. **app.engin()**
 --for engin method need a ejs templete ingin install > npm i ejs
 --make a views folder and a index.ejs now set ejs in index and call from see ? "http://localhost:4000/see" route
+
+---
+# part 4 working with response 
+***
+1. **_baseUrl_** req.baseUrl() which rout of base it mounted a baseUrl is one but can have more sub url
+2. **_originalUrl_** req.originalUrl()
+3. **_url_** req.Url()
+4. **_hostname** req.hostname()
+5. **_method_** req.method()
+6. **_protocol_** req.protocol()
+7. **_params_** req.params()
+8. **_params.id_** req.params.id()
+9. **_query_** req.query()
+10. **_body_** req.body() if send no body it will give undefined
+10. **_qooqies_** req.cookies()
+for this need a cookie parser install ---> npm i cookie-parser and import in index and use it for settitn cookies
+11. **_sequre_** req.secure() false
+12. **_app_** req.app()
+
 
 
   
