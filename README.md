@@ -47,7 +47,7 @@ can create multiple app object like as for admin panel a separate app object
 --make a views folder and a index.ejs now set ejs in index and call from see ? "http://localhost:4000/see" route
 
 ---
-# part 4 working with response 
+# part 4 working with request object
 ***
 1. **_baseUrl_** req.baseUrl() which rout of base it mounted a baseUrl is one but can have more sub url
 2. **_originalUrl_** req.originalUrl()
@@ -63,7 +63,20 @@ can create multiple app object like as for admin panel a separate app object
 for this need a cookie parser install ---> npm i cookie-parser and import in index and use it for settitn cookies
 11. **_sequre_** req.secure() false
 12. **_app_** req.app()
+13. **_accept_** req.accepts() // u can mentioned in header for accept a request data allowing 
+---
+# part 5 work with response object //-- represent the http response
 
-
+1. **res.app()** // reference of app instance
+2. **res.headersent()** // it return boolean if response header is sent or not
+3. **_res.render()_** it will render a views engin page from view 
+npm i ejs for view engin
+4. **_res.local()** it will combine work with res.render page sending a data or variable
+5. **_res.headersent()_** test the headersent is yes or not
+6. **_res.end()_** 
+7. **_res.json()_** it will represent a json data
+8. **_res.status()_**
+9. **_res.sendStatus()_** it will set status and end the response
+10. **_res.format()_** 
 
   
