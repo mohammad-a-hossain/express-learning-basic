@@ -94,11 +94,11 @@ npm i ejs for view engin
  6. it can  throw catch and error
  ## **types of Middlewear**
  ---
- **1. application level middleware**
- **2. router level middleware**
- **3. error handling middleware**
- **4. built in middleware** --> app.use(express.json())
- **5. third party middleware**
+ **1. _application level middleware_** 
+ **2. _router level middleware_**
+ **3. _error handling middleware_**
+ **4. _built in middleware_** --> app.use(express.json())
+ **5. _third party middleware_**
  --for third party middleware library use coocki-parser (npm i cookie-parser) need install cookie-parser and require it
 
 
