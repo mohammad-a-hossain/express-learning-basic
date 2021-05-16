@@ -92,7 +92,7 @@ npm i ejs for view engin
  4. it can end req res  from any cycle
   5. it can call a next anytime for another function
  6. it can  throw catch and error
- ## **types of Middlewear**
+ ## **types of Middleware**
  ---
  **1. _application level middleware_** 
  **2. _router level middleware_**
@@ -101,7 +101,8 @@ npm i ejs for view engin
  **5. _third party middleware_**
  --for third party middleware library use coocki-parser (npm i cookie-parser) need install cookie-parser and require it
 
-
+---
+# part 7 work with router 
 
 
 
