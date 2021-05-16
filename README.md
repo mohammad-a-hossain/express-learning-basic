@@ -77,6 +77,11 @@ npm i ejs for view engin
 7. **_res.json()_** it will represent a json data
 8. **_res.status()_**
 9. **_res.sendStatus()_** it will set status and end the response
-10. **_res.format()_** 
+10. **_res.format()_**  can send different type of header accept and response 
+11. **_res.coockey()_** 
+12. **_res.location()_** 
+13. **_res.redirect()_** 
+14. **_res.set()_** 
+
 
   
