@@ -83,5 +83,29 @@ npm i ejs for view engin
 13. **_res.redirect()_** 
 14. **_res.set()_** 
 
+---
+# part 6 work with middleware
+**charecterstick of middlewear**
+ 1. middleware work after a request come from client and it has function with next() middleware and finally reach to response . 
+ 2. Also middleware handle error and it solve the error and send to response to client
+  3. it can change the request and response 
+ 4. it can end req res  from any cycle
+  5. it can call a next anytime for another function
+ 6. it can  throw catch and error
+ ## **types of Middlewear**
+ ---
+ **1. application level middleware**
+ **2. router level middleware**
+ **3. error handling middleware**
+ **4. built in middleware** --> app.use(express.json())
+ **5. third party middleware**
+ --for third party middleware library use coocki-parser (npm i cookie-parser) need install cookie-parser and require it
+
+
+
+
+
+
+
 
   
