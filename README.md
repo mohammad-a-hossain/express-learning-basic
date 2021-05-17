@@ -103,6 +103,20 @@ npm i ejs for view engin
 
 ---
 # part 7 work with router 
+** EXPRESS.ROUTER()
+**making a folder for public router and private/adminrouter and call from index page
+--app.use('/admin',adminrouter) adminrouter object 
+--app.use('/',publicrouter) public router object
+## router methods
+1. **_router.all()_**
+2. **_router.param()_**
+3. **_app.route()_**
+4. **_router.route()_**
+5. **_router.use()_**
+6. **_router.path()_**
+
+
+
 
 
 
