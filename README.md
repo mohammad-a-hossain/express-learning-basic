@@ -1,5 +1,5 @@
 
-# works description
+# learning description  --### credit goes to sumit saha
 ## part 1 _installation process_
 ---
 ### creating a basic server 
@@ -114,7 +114,16 @@ npm i ejs for view engin
 4. **_router.route()_**
 5. **_router.use()_**
 6. **_router.path()_**
+---
+# part 8 error handling
+1. **_asynchronous error handling_**
+--when a error get from synchronous way then he send the  default middle ware to handle the error 
+and this middle ware handle the error and process to give the response to the client
+-- it set last middleware at the bootom of app so that it can catch the error easily to handle
+--error handling middleware recieve 4 parameter (err, req,res,next ) this parameter function is called in 
+express error handling middleware
 
+2. **_synchronous error handling_**
 
 
 
