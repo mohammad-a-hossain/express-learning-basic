@@ -117,15 +117,19 @@ npm i ejs for view engin
 ---
 # part 8 error handling
 1. **_asynchronous error handling_**
---when a error get from synchronous way then he send the  default middle ware to handle the error 
-and this middle ware handle the error and process to give the response to the client
--- it set last middleware at the bootom of app so that it can catch the error easily to handle
---error handling middleware recieve 4 parameter (err, req,res,next ) this parameter function is called in 
-express error handling middleware
+
 
 2. **_synchronous error handling_**
+_--when a error get from synchronous way then he send the  default middle ware to handle the error 
+and this middle ware handle the error and process to give the response to the client_
+_-- it set last middleware at the bootom of app so that it can catch the error easily to handle_
+_--error handling middleware recieve 4 parameter (err, req,res,next ) this parameter function is called in 
+express error handling middleware_
 
-
+_--if we start our server production mode the stack of error will not seen_
+_--error seen only when we start our server in development mode_
+_-- by default our server is run on development mode when we start at production environment the error is not shown_
+_--a synchronous error will goto the middleware error to handle directly when a error occurred_
 
 
 
